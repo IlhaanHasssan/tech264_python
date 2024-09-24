@@ -1,4 +1,4 @@
-# This is a subheading
+# Learning Markdown
 ## This is a smaller subheading
 `print("Hello world")`
 
@@ -19,4 +19,8 @@ Bulleted list:
 Numbered list:
 1. for lists
 2. that require specific steps
-3.
+
+# This is how you link to other pages
+* [Learning Git](..%2Flearning_git%2FREADME.md)
+* [Learning Python](..%2Flearning_python%2FREADME.md)
+

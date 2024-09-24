@@ -1,5 +1,8 @@
-print("Hello world")
+# *Python Learning:*
+* [Git](..%2Flearning_git%2FREADME.md)
+* [Markdown](..%2Flearning_markdown%2FREADME.md)
 
+```python
 # What is a variable?
 # A variable is a container to store data
 # It is called a variable because it is a symbolic name that is a reference/pointer to an object
@@ -94,3 +97,8 @@ age_int = input("age = ")
 name_str = input("name = ")
 print(age_int)
 print(name_str)
+
+```
+
+
+
