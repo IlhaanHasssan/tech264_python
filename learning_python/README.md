@@ -25,7 +25,7 @@ print(id(a))
 
 #Explain: What's the difference between a dynamically typed language (like Python) and a strong typed language ?
 # Type-checking (determining data types) happens during run-time for python vs before the program runs
-#Dynamicallt typed languages allow for more flexibility
+#Dynamically typed languages allow for more flexibility
 #you can add an int to a float in python without error
 # the id of the variable changes because the unique identifier for the specified object is based on the value
 
@@ -57,6 +57,8 @@ One_third = 1/3
 print(One_third)
 print(One_third * 3)
 #python has internal rounding of integers due to IEEE754 arithmetic
+#floating-point arithmetic is subject to precision limits
+#so you should be careful when working with floating-point numbers in critical calculations
 
 print(bool(""))
 # empty string is false
