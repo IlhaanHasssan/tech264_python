@@ -2,7 +2,7 @@
 
 * [Markdown](../learning_markdown/README)
 * [Python](../learning_python/README.md)
-### *Do your first commit:*
+### *Doing your first commit:*
 1. Check if you have git on your machine `git --version`
 2. Change into the correct directory in Git Bash/Command Prompt/Terminal `cd`
 3. Ensure you are in the right directory `ls`
