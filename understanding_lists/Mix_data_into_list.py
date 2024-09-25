@@ -9,8 +9,8 @@ print(user_details_list)
 # Check the age is saved as an integer in the list. If it's not, work out how to convert it to an integer and add the age integer to the list.
 print(type(user_details_list[1]))
 # Ask the user for their height in cm and save it to the variable height
-height = input("Please enter your height in cm")
-print(height)
+height = input("Please enter your height in cm ")
+print(f"You height is {height}cm")
 # Save height as a float in the list, and print the height from the list.
 float_height = float(height)
 user_details_list.append(float_height)

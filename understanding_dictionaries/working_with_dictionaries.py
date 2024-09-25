@@ -31,7 +31,7 @@ print(student_1["completed_lesson_names"])
 completed_lesson_names_list = student_1["completed_lesson_names"]
 print(completed_lesson_names_list[0])
 
-#another way it can be done
+#another way it can be done, either inside the print statement or outside
 
 get_variables = student_1["completed_lesson_names"][0]
 print(get_variables)
