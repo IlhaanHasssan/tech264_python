@@ -19,6 +19,8 @@ print('Updated fruits:', fruits)
 
 # Remove "banana" from the fruits set using one of the set's methods.
 fruits.remove("banana")
+#can also use the .discard method
+
 # Print the set 'fruits' - check it's removed
 print('Removed banana:', fruits)
 # Attempt to add another "apple" to the fruits set. What do you observe? Why does this happen?
@@ -30,4 +32,6 @@ print('duplicate apple:', fruits)
 print('final fruit set:', fruits)
 # Print the 2nd item in the set. If there is any problem doing this, explain.
 # set elements are not indexed so you cannot access the second item in the set since it doesn't exist
+#need to loop through value in sets to find it
+#even if you try to index into the set, then you will receive a different element every time
 

@@ -3,17 +3,16 @@
 # stream: tech
 # completed_lessons: 4 (should be saved as an integer not a string)
 # completed_lesson_names: value should be list of these 3 items: "variables", "data_types", "set up"
-from statistics import stdev
-
 student_1 = {
     "name":"Susan",
     "stream":"tech",
     "completed_lessons": 4,
-    "completed_lesson_names": ("variables", "data_types", "set up" )
+    "completed_lesson_names": ["variables", "data_types", "set up" ]
 }
 
 # Explain how a dictionary saves/structures data? Example, what does each value need to be accompanied/associated with?
-#a dictionary is a collection of items like a list or tuple except they come in key-value pairs
+#a dictionary is a collection of items like a list or tuple except they come in key-value pairs and are mutable,
+#you can add, remove or update elements using built-in methods
 
 #Print the dictionary to the screen
 print(student_1)
@@ -41,12 +40,8 @@ student_1["completed_lessons"] = 3
 print(student_1)
 
 #Delete "data_types" from the list under the key 'completed_lesson_names'
-deleting_data_types= student_1["completed_lesson_names"]
-deleting_data_types_list = list(deleting_data_types)
-print(deleting_data_types_list)
-print(type(deleting_data_types_list))
-deleting_data_types_list.pop(1)
-print(deleting_data_types_list)
+student_1["completed_lesson_names"].remove("data_types")
+print(f" deleting data types: {student_1}")
 
 #Use the keys() method on your dictionary to list all the keys
 print(student_1.keys())

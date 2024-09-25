@@ -54,6 +54,7 @@ essential_item4 = input("What is one more essential item you would take? ")
 # if you can't add the 4th item, work out how to save the 4th item to the tuple
 
 essentials_tuple = (essential_item1, essential_item2, essential_item3, essential_item4)
+# essentials_tuple = essentials_tuple + (essential_item4, )
 
 print("Here are your items as a tuple (with the 4th item added):", essentials_tuple)
 
