@@ -87,18 +87,25 @@ DOB = "14.03.1999"
 print(name, age, DOB)
 #input("name, age and DOB =")
 
-age_int = 100
-name_str = "Ilhaan"
-
-age_calc = 2024 - age_int
-print(age_calc)
-print("OMG, you are " + str(age_int) + " years old so you were born in " + str(age_calc))
-
-
 age_int = input("age = ")
-name_str = input("name = ")
-print(age_int)
-print(name_str)
+age_calc = (2024 - int(age_int))
+print(age_calc)
+print(f"OMG, you are {age_int} years old so you were born in {age_calc}")
+
+# How to structure an f-string
+score = 16
+
+max_score = 26
+
+score_as_decimal = score / max_score
+
+# Use an f-string to print 'score_as_decimal' e.g. 'You scored 0.6153846153846154' (no % sign)
+new_score = f'You scored {score_as_decimal}'
+print(new_score)
+
+
+
+
 
 ```
 
