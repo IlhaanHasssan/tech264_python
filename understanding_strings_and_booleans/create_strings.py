@@ -14,6 +14,9 @@ print(bad_string_two)
 bad_string_three = '''I said "Wow!"'''
 print(bad_string_three)
 
+bad_string_four = 'I said \'Wow!\''
+print(bad_string_four)
+
 
 #Condition: The Wow! must be surrounded in quotes when it prints to the screen
 #Explain: What is best practice when deciding what quotes to use around strings in Python?

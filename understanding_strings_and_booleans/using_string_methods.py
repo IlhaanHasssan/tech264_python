@@ -25,7 +25,7 @@ print(example_text.upper())
 print(example_text.capitalize())
 
 # replace the word 'with' in example_text with a comma (,) instead & print it to the screen
-new_example = example_text.replace("with", ",")
+new_example = example_text.replace(" with", ",")
 print(new_example)
 
 

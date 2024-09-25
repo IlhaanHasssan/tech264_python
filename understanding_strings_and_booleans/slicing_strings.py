@@ -33,5 +33,5 @@ print(Hw[:5])
 # slices the string from the beginning to the 5th index ([5])
 
 # Starts from the second, stops at the fifth (doesn't include it)
-print(Hw[2:5])
+print(Hw[1:5])
 
