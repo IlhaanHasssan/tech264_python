@@ -8,6 +8,8 @@
 # milk
 # Print the list to the screen
 
+#lists always use []with "" surrounding the elements
+
 shopping_list = ["eggs", "bread", "bananas", "biscuits", "milk"]
 print(shopping_list)
 
@@ -29,8 +31,9 @@ shopping_list.append("carrots")
 print(len(shopping_list))
 
 # Add another list with two items ('toffee' and 'coffee') to the 'shopping_list' list. Use one of the list's methods to add the two items in one go.
-new_list = ["toffee", "coffee"]
-shopping_list.append(new_list)
+# new_list = ["toffee", "coffee"]
+# shopping_list.append(new_list)
+shopping_list.extend(["toffee", "coffee"])
 
 # Print the 'shopping_list' to check 'toffee' and 'coffee' have been added correctly.
 print(shopping_list)
@@ -40,5 +43,5 @@ shopping_list.pop(2)
 print(shopping_list)
 
 # Remove the last item ('coffee') from 'shopping_list' using the pop method. Check it worked by printing 'shopping_list'
-new_list.pop(-1)
+shopping_list.pop(-1)
 print(shopping_list)
