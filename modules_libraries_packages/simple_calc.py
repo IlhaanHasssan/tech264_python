@@ -3,7 +3,7 @@ from math_operations import *
 # a library is a set of modules
 # packages are different because they are installable
 
-user_input = input("Enter which math operator you would like to use: 1. Addition 2.Subtraction 3.Multiplication 4.Division: ")
+user_input = input("Enter which math operator you would like to use (1-5): \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Exponentiation\n5. Division ")
 
 #Addition
 first_num = int(input("Enter the first number: "))
@@ -21,9 +21,13 @@ elif user_input == "3":
     result = multiply(first_num, second_num)
     print(f"{first_num} * {second_num} = {result}")
 
-#Division
-#Division
+#Exponentiation
 elif user_input == "4":
+    result = exponentiation(first_num, second_num)
+    print(f"{first_num} ⌃ {second_num} = {result}")
+
+#Division
+elif user_input == "5":
     if second_num != 0:
         result = divide(first_num, second_num)
         print(f"{first_num} / {second_num} = {result}")
