@@ -6,28 +6,28 @@
 # Can add 2 numbers
 def addition(num1 : int = 10, num2 : int = 10):
     '''This function adds numbers'''
-    return (f"{num1} + {num2} = {num1 - num2}" )
+    return f"{num1} + {num2} = {num1 - num2}"
 
 print(addition())
 
 # Can subtract 2 numbers
-def subtract(num1 : int = 10, num2 : int = 10) -> float:
+def subtract(num1 : int = 10, num2 : int = 10):
     '''This function subtracts numbers'''
-    return (f"{num1} - {num2} = {num1 - num2}")
+    return f"{num1} - {num2} = {float(num1 - num2)}"
 
 print(subtract())
 
 # Can multiply 2 numbers
-def multiply(num1 : int = 10, num2 : int = 10) -> float:
+def multiply(num1 : int = 10, num2 : int = 10):
     '''This function multiplies numbers'''
-    return (f"{num1} * {num2} = {num1 - num2}" )
+    return f"{num1} * {num2} = {num1 - num2}"
 
 print(multiply())
 
 # Can divide 2 numbers
-def division(num1: int = 10, num2: int = 10) -> float:
+def division(num1: int = 10, num2: int = 10):
     '''This function divides numbers'''
-    return (f"{num1} / {num2} = {num1 - num2}" )
+    return f"{num1} / {num2} = {num1 - num2}"
 
 print(division())
 
