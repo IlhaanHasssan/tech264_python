@@ -1,8 +1,7 @@
 #Level 1
+import random
 #Challenge yourself to get Level 1 done in 15 min
 #Comments in the code are to help you meet user requirements, but you may need to write code in the order you think is necessary
-import random
-
 # Level 1: Guess the Magic Number
 # User story 1: As a user, I want to be able to guess a number and know if i got it correct or not, so that I can know if I won or not.
 # User story 2: As a user, I want to be able to guess a number and know if I need to go higher or lower.
