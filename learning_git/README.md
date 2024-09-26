@@ -1,16 +1,18 @@
+from ctypes import c_double
+
 # *Git Learning:*
 
 * [Markdown](../learning_markdown/README)
 * [Python](../learning_python/README.md)
 ### *Doing your first commit:*
-```python
+python
 
 
 1. Check if you have git on your machine `git --version`
 2. Change into the correct directory in Git Bash/Command Prompt/Terminal `cd`
 3. Ensure you are in the right directory `ls`
 4. Add your details to track the author of the commits `git config user.name "Ilhaan Hassan" and  
-git config user.email "IlhaanHassanA@outlook.com"`
+    git config user.email "IlhaanHassanA@outlook.com"`
 4. Initialise your git repo `git init` or clone from an online repo `git clone`
 5. Create a README.md file in the IDE or in Git Bash`touch README.md`
 6. You can create a change in the file in the IDE or Git Bash `echo <insert content>`
@@ -25,4 +27,23 @@ git config user.email "IlhaanHassanA@outlook.com"`
 15. Use `git log` to check all commits and commit IDs
 16. Can use `git restore` to restore files in the working directory or the staging area (index) to their last committed state
 
+
+
+### *How to clone an existing repo:*
+
+1. Make sure you are in the correct directory using `pwd`
+2. If not, you can change your current directory with `cd`
+3. Sign up/Log in to github.com
+4. Go to the repositories section of you profile and click `new`
+5. Best practice denotes using the same name for local and online repos
+6. Once you've named your repo, you can now connect the local to the online
+7. You must select HTTPS option.
+8. You need to run these commands in a CLI:
+```commandline
+    i.  $ git remote add origin https://github.com/<name of github repo>
+    ii. $ git branch -M main
+    iii.$ git push -u origin main
 ```
+    
+
+
