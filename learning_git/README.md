@@ -3,9 +3,14 @@
 * [Markdown](../learning_markdown/README)
 * [Python](../learning_python/README.md)
 ### *Doing your first commit:*
+```python
+
+
 1. Check if you have git on your machine `git --version`
 2. Change into the correct directory in Git Bash/Command Prompt/Terminal `cd`
 3. Ensure you are in the right directory `ls`
+4. Add your details to track the author of the commits `git config user.name "Ilhaan Hassan" and  
+git config user.email "IlhaanHassanA@outlook.com"`
 4. Initialise your git repo `git init` or clone from an online repo `git clone`
 5. Create a README.md file in the IDE or in Git Bash`touch README.md`
 6. You can create a change in the file in the IDE or Git Bash `echo <insert content>`
@@ -20,3 +25,4 @@
 15. Use `git log` to check all commits and commit IDs
 16. Can use `git restore` to restore files in the working directory or the staging area (index) to their last committed state
 
+```
