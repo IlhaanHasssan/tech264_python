@@ -20,9 +20,10 @@ while x < 10:
     print(f"x = {x}")
     # Explanation: If we don't increment x, the loop will run indefinitely.
     # Without an increment, x remains 0, and the condition (x < 10) is always true
-    x += 1
-    if x == 5:  #this breaks out of the loop when x = 4
+    if x == 4:  #this breaks out of the loop when x = 4
         break
+    x += 1
+
 
 # Once your code works, find out what happens when you run the code if you comment out the first line which initialises 'x'.
     # the code doesn't run as x is not defined

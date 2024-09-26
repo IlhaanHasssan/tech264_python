@@ -1,9 +1,9 @@
 #1. Loop until age is all digits
 #Look at this code:
 # Ask user for their age
-age = input("What is your age? ")
-
-print(f" Your age is {age}")
+# age = input("What is your age? ")
+#
+# print(f" Your age is {age}")
 
 #The problem with this code is that even if the user is 20, they could enter "20" or "twenty". Let's standardise the input to get the age as digits...
 user_prompt = True
@@ -15,7 +15,7 @@ while user_prompt:
     else:
         print("Please enter your age using digits(up to 117 years old)!")
 
-print(f"your age is {age}")
+print(f"You are {age} years old!")
 
 # 2. Also check age is in the correct range
 # Our code now works to stop our user from inputting strings, floats, and negative numbers, but at the moment the user could say they are 356000 years old if they want.
