@@ -4,7 +4,7 @@
 # Call the function to test it works
 
 def print_something():
-    print("someting")
+    print("something")
 
 print_something()
 # 2. Make a function with one argument
@@ -113,13 +113,13 @@ greet(name="Susan")
 # You should call the function with this line of code:
 # print(division(a, b))
 # Also check the default values work if no values are passed into the function
-def division(num1 : int = 2, num2 : int = 5) -> float:
-    '''This function divides numbers'''
-    return num1 / num2
-
-print(division())
-a : int = 8
-b : int = 4
-
-print(division(a, b))
+# def division(num1 : int = 2, num2 : int = 5) -> float:
+#     '''This function divides numbers'''
+#     return num1 / num2
+#
+# print(division())
+# a : int = 8
+# b : int = 4
+#
+# print(division(a, b))
 # 9. What are some good practices when it comes to functions?
