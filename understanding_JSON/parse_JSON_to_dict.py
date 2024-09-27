@@ -15,4 +15,4 @@ print("Record for 'server2':", servers["server2"])
 for key, value in servers.items():
     print(f"Key and value: '{key}' =", json.dumps(value))
     for sub_key, sub_value in value.items():
-        print(f"  Record key and sub value: '{sub_key}' =", sub_value)
+        print(f"  Sub key and sub value: '{sub_key}' =", sub_value)
