@@ -12,7 +12,7 @@ embedded_lists = [[1, 2, 3], [4, 5, 6]]
 dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "money": "$3.66"},
              3: {"name": "Roscoe", "money": "$1.14"}}
 
-#Looping through a list:
+#Looping through a list: for loops run through iterations a finite number of times
 for num in list_data:
     double = num * 2
     print(f"{num} x 2 = {double}.")
