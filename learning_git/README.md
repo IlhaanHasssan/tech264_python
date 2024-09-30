@@ -45,19 +45,19 @@ python
     iii.$ git push -u origin main
 ```
     
-When you want a file to be ignored, you can put a . infront of a file or directory.
-What are some things we would want to avoid pushing to git?
+***When you want a file to be ignored, you can put a . in front of a file or directory.
+What are some things we would want to avoid pushing to git?***
 - anything sensitive like passwords, credentials etc
 - really large files/folders that we don't need to be push to a remote repo
 - some files/folders related to building/running eg: /bin, /out, etc
 - Hidden system files
-## Solution = .gitignore files
+#### *Solution = .gitignore files*
 If the file is still accessible in a previous commit, what can you do?
-- # option 1:
-- git reset (removes all previous commits with that file) BEWARE - DANGEROUS COMMAND
-- # option 2:
+- #### option 1:
+- ```git reset``` (removes all previous commits with that file) ***BEWARE - DANGEROUS COMMAND***
+- #### option 2:
   1. remove GitHub repo from online repo
   2. remove sensitive info from your local file
-  3. remove .git from your local repo
+  3. remove ```.git``` from your local repo
 
 
