@@ -45,5 +45,11 @@ python
     iii.$ git push -u origin main
 ```
     
-
+When you want a file to be ignored, you can put a . infront of a file or directory.
+What are somethings we would want to avoid pushing to git?
+- anything sensitive like passwords, credentials etc
+- really large files/folders that we don't need to be push to a remote repo
+- some files/folders related to building/running eg: /bin, /out, etc
+- Hidden system files
+ Solution = .gitignore files
 
