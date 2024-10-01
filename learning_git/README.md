@@ -13,7 +13,7 @@ python
 3. Ensure you are in the right directory `ls`
 4. Add your details to track the author of the commits `git config user.name "Ilhaan Hassan" and  
     git config user.email "IlhaanHassanA@outlook.com"`
-4. Initialise your git repo `git init` or clone from an online repo `git clone`
+4. Initialise your git repo `git init` or clone from an online repo `git clone`, use `ls -a` to check if git repo has been initialised
 5. Create a README.md file in the IDE or in Git Bash`touch README.md`
 6. You can create a change in the file in the IDE or Git Bash `echo <insert content>`
 7. Check the status of your files using `git status`
@@ -31,7 +31,7 @@ python
 
 ### *How to clone an existing repo:*
 
-1. Make sure you are in the correct directory using `pwd`
+1. Make sure you are in the correct directory using `pwd` or create a new one using `mkdir`
 2. If not, you can change your current directory with `cd`
 3. Sign up/Log in to github.com
 4. Go to the repositories section of you profile and click `new`
@@ -45,16 +45,28 @@ python
     iii.$ git push -u origin main
 ```
     
-***When you want a file to be ignored, you can put a . in front of a file or directory.
-What are some things we would want to avoid pushing to git?***
+
+
+### ***What are some things we would want to avoid pushing to git?***
+
 - anything sensitive like passwords, credentials etc
 - really large files/folders that we don't need to be push to a remote repo
 - some files/folders related to building/running eg: /bin, /out, etc
 - Hidden system files
 #### *Solution = .gitignore files*
+ ***When you want a file to be ignored, you can put a . in front of a file or directory.***
+
 If the file is still accessible in a previous commit, what can you do?
+- you can run the command below to erase the cache/history of all the commits of a file.
+
+```bash
+git rm --cached -r <filename>
+```
 - #### option 1:
-- ```git reset``` (removes all previous commits with that file) ***BEWARE - DANGEROUS COMMAND***
+```bash
+git reset
+``` 
+- This removes all previous commits of that file ***BEWARE - DANGEROUS COMMAND***
 - #### option 2:
   1. remove GitHub repo from online repo
   2. remove sensitive info from your local file
