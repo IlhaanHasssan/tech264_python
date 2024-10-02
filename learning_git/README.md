@@ -45,8 +45,33 @@ python
     iii.$ git push -u origin main
 ```
     
+### Adding `.idea` (PyCharm settings) to `.gitignore`
 
+### 1. Open the `.gitignore` file:
 
+- Locate the `.gitignore` file in the root of your project directory. If it doesn't exist, create one by right-clicking on the root folder, selecting `New > File`, and naming it `.gitignore`.
+
+### 2. Add the `.idea` folder to `.gitignore`:
+
+- Open the `.gitignore` file and add the following line:
+
+```plaintext
+.idea/
+```
+- Save the .gitignore file. This will prevent Git from tracking any changes to the .idea folder in the future.
+### 3. Remove .idea from Git tracking (if already tracked):
+  - If the .idea folder is already in the repository, you'll need to remove it from Git's index (but keep it locally).
+  Run the following command in the terminal:
+```bash
+git rm -r --cached .idea
+```
+  - This removes the .idea folder from Git's tracking, but the folder will remain on your local machine.
+### 4. Commit the changes:
+After adding .idea/ to .gitignore and running the git rm command, commit the changes:
+```bash
+git commit -m "Added .idea to .gitignore and removed it from tracking"
+```
+  - Now, the .idea folder will no longer be tracked by Git.
 ### ***What are some things we would want to avoid pushing to git?***
 
 - anything sensitive like passwords, credentials etc
