@@ -26,8 +26,9 @@
 - restarted TMAY due to nervousness
 - good balance of academic and personal interests
 - sounded knowledgeable
-= not very clear when talking about who assigns tasks when implementing scrum framework, could be clearer about when assigning of tasks takes place.
-- Well spoken – knowledgeable
+- not very clear when talking about who assigns tasks when implementing scrum framework, could be clearer about when assigning of tasks takes place.
+- Well spoken 
+- knowledgeable
 
 ### ***Merge Conflict Feedback:***
   - Positives:
